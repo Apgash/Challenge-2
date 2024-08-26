@@ -90,7 +90,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url('../images/02-hero-bg.jpg'), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -117,6 +117,11 @@
     display: inline;
   }
   
+ .about-me{
+  flex: 0 0 80%;
+   padding: 5%;
+ }
+ 
   .page-wrapper {
     max-width: 88%;
     margin-left: auto;
@@ -150,6 +155,11 @@
     margin-bottom: 20px;
   }
   
+.work {
+  flex: 0 0 80%;
+  padding: 5%;
+}
+
   .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -224,11 +234,15 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-   
+      background-image: url("calculator.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      
   }
   
   .led-wall {
-    
+
   }
   
   .react-calc {
